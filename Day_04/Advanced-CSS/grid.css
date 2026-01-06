@@ -1,0 +1,11 @@
+.container div{
+    background-color: rgb(207 232 220);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
