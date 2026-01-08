@@ -36,8 +36,8 @@ section{
     flex: 3;
 }
 .gallery figure img{
-    height: 30px;
-    width: 40px;
+    height: 50px;
+    width: 60px;
 }
 .container{
     display: grid;
@@ -96,4 +96,10 @@ section article{
 .posts .post{
     display: flex;
 }
-
+.post{
+    display: flex;
+}
+.Gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
