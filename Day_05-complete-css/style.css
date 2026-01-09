@@ -8,10 +8,10 @@ html body {
     height: 100vh;
 }
 
-/* body{
+body{
     display: flex;
     flex-direction: column;
-} */
+}
 main {
     flex: 1;
 }
