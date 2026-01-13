@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <form id="loginform">
+            <div id="heading">Login Form</div>
+
+            <div class="input-group">
+                <label> Email ID: </label><br>
+                <input type="text" id="email" placeholder="enter your ID">
+                <span class="error" id="emailerror"></span>
+            </div>
+
+             <div class="input-group">
+                <label> Password: </label><br>
+                <input type="password" id="password" placeholder="Password" > <button id="show" onclick="Showpassword()"> show password</button>
+                <span class="error" id="passworderror"></span>
+            </div>
+
+            <button id="btn">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
